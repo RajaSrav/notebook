@@ -1,0 +1,74 @@
+/* left side content and right side content */
+.mainside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.leftside {
+    width: 23%;
+    background-color: bisque;
+    box-shadow: 3px 10px 3px #ddd;
+    border: 3px solid #ddd;
+}
+.link1 {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1%;
+    margin: 1%;
+    text-decoration: none;
+}
+.rightside {
+    width: 73%;
+    background-color: hsl(0, 0%, 87%);
+    box-shadow: 3px 3px 3px 8px rgb(158, 154, 154);
+    /* margin-left: 23px; */
+}
+.link1:active {
+    color: red;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  /* Intruduction content */
+  .intruduction, p {
+      margin: 1%;
+      padding: 1%;
+    }
+  h3 {
+      text-align: center;
+      color: #000fff;
+  }
+  h5 {
+      color: #ff0000;
+  }
+  .intmaindiv {
+      display: flex;
+      flex-wrap: wrap-reverse;
+      justify-content: space-between;
+  }
+  .intlefside {
+      
+  }
+  .intright {
+      width: 25%;
+  }
+  img {
+      width: 100%;
+  }
+  h6 {
+      color: #b55a30;
+      margin-left: 5%;
+  }
+  ol {
+      margin-left: 10%;
+  }
+  .cmd{
+      background-color: #000;
+      color: #fff;
+      padding: 3px;
+  }
