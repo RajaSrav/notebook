@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
+import logoReact from '../images/logo512.png'
+import futureRect from '../images/reactjs-features.png'
 
 export default class ReactIntruduction extends Component {
     render() {
         return (
-            <div className="intruduction">
-            <h3>React Js Intruduction</h3>
+            <div className="c">
+            <h3>React Js introduction</h3>
             
             <div className="intmaindiv">
                 <div className="intleftdiv">
@@ -23,7 +25,7 @@ export default class ReactIntruduction extends Component {
                 </div>
 
                 <div className="intright">
-                    {/* <img src={logogit} alt="gitimg" /> */}
+                    <img src={logoReact} alt="React Jsimg" />
                 </div>
             </div>
            
@@ -35,16 +37,20 @@ export default class ReactIntruduction extends Component {
                     <p>&#9733; We can use ReactJS on the client and server sides as well as with other frameworks. It uses components and data patterns that improve readability and help to maintain larger apps.</p>
                 </div>
                  <h4>React Features</h4>
+                 <div className='intmaindiv'>
 
-                 <ul type="none">
+                 <ul type="none" className='intleftdiv'>
                     <li>&#128299; JSX</li>
                     <li>&#128299; Components</li>
                     <li>&#128299; One-way Data Binding</li>
                     <li>&#128299; Virtual DOM</li>
                     <li>&#128299; Simplicity</li>
                     <li>&#128299; Performance</li>
-
+                    
                  </ul>
+                 <img className='rightside' src={futureRect} alt='React Futures' />
+                 </div>
+
                 
                  <h5>Prerequisites Technologies</h5>
                  <ul type="none">

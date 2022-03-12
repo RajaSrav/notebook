@@ -17,15 +17,15 @@ export default class Navigation extends Component {
                             <Nav.Link><Link className="Link" to='/html'>HTML</Link></Nav.Link>
                             <Nav.Link ><Link className="Link" to='/css'>CSS</Link></Nav.Link>
                             <Nav.Link ><Link className="Link" to='/bootstrap'>BootStrap</Link></Nav.Link>
-                            <Nav.Link ><Link className="Link" to='/mittools'>JavaScript</Link></Nav.Link>
-                            <Nav.Link ><Link className="Link" to='/mittools'>ES6</Link></Nav.Link>
+                            <Nav.Link ><Link className="Link" to='/javascript'>JavaScript</Link></Nav.Link>
+                            <Nav.Link ><Link className="Link" to='/es6'>ES6</Link></Nav.Link>
                             <Nav.Link ><Link className="Link" to='/reactjs'>React JS</Link></Nav.Link>
                             <Nav.Link ><Link className="Link" to='/github'>Git & GitHub</Link></Nav.Link>
                             <Nav.Link ><Link className="Link" to='/python'>Python</Link></Nav.Link>
                             <Nav.Link ><Link className="Link" to='/googletools'>Google Tools</Link></Nav.Link>
                             <Nav.Link ><Link className="Link" to='/mittools'>MIT Tool</Link></Nav.Link>
-                            <Nav.Link ><Link className="Link" to='/mittools'>Raptor</Link></Nav.Link>
-                            <Nav.Link ><Link className="Link" to='/mittools'>AWS</Link></Nav.Link>
+                            <Nav.Link ><Link className="Link" to='/raptor'>Raptor</Link></Nav.Link>
+                            <Nav.Link ><Link className="Link" to='/aws'>AWS</Link></Nav.Link>
                             
 
                             

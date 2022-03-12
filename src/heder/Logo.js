@@ -3,6 +3,7 @@ import { Route, BrowserRouter as Router } from 'react-router-dom';
 import Main from '../resources/github/Main';
 import HtmlMain from '../resources/html/HtmlMain';
 import ReactMain from '../resources/react/ReactMain';
+import JsMain from '../resources/javascript/JsMain';
 import Navigation from './nav';
 import './header.css';
 export default class Logo extends Component {
@@ -29,6 +30,7 @@ export default class Logo extends Component {
                 <Route path="/github" component={Main} />
                 <Route path="/html" component={HtmlMain} />
                 <Route path='/reactjs' component={ReactMain} />
+                <Route path='/javascript' component={JsMain} />
                 {/* <Route path="/profile" name="raja" component={Profile} /> */}
                 
             </Router>

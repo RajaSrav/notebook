@@ -1,3 +1,9 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-style: oblique; */
+    /* padding: 1%; */
+    /* margin: 1%; */
+}
 /* left side content and right side content */
 .mainside {
     display: flex;
@@ -23,6 +29,8 @@
     width: 73%;
     background-color: hsl(0, 0%, 87%);
     box-shadow: 3px 3px 3px 8px rgb(158, 154, 154);
+    padding: 1%;
+
     /* margin-left: 23px; */
 }
 .link1:active {
@@ -34,8 +42,8 @@
     width: 100%;
   }
 
-  /* Intruduction content */
-  .intruduction, p {
+  /* Introduction content */
+  p, .projectcreation {
       margin: 1%;
       padding: 1%;
     }
@@ -48,23 +56,25 @@
   }
   .intmaindiv {
       display: flex;
-      flex-wrap: wrap-reverse;
+      /* flex-wrap: wrap-reverse; */
       justify-content: space-between;
   }
   .intlefside {
       
   }
   .intright {
-      width: 25%;
+      width: 40%;
   }
   img {
       width: 100%;
+      margin: 3px;
+      padding: 1%;
   }
   h6 {
       color: #b55a30;
       margin-left: 5%;
   }
-  ol {
+  ol,ul {
       margin-left: 10%;
   }
   .cmd{
@@ -72,3 +82,91 @@
       color: #fff;
       padding: 3px;
   }
+  .note {
+      
+      margin: 3%;
+      padding: 1%;
+      background-color: #ffb266;
+      border: 1px solid #000fff;
+      
+  }
+  .imgsize {
+      width: 60%;
+      display: block;
+      margin: 0 auto 0 auto;
+  }
+  dl {
+      margin: 10%;
+  }
+  dt {
+      color: #b55a30;
+
+  }
+  dd {
+      padding-left: 10%;
+  }
+  .code {
+      width: 70%;
+      color: #fff;
+      background-color: #000;
+      border: 2px solid #000fff;
+      border-left: 5px solid #000fff;
+      margin: 0 auto 1% auto;
+      padding: 1%;
+      font-size: 16px;
+      text-align: justify;
+      font-family: inter-regular,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+  }
+  .c, .head, .title, .ol {
+      padding-left: 10%;
+  }
+  .html {
+      color: #000fff;
+  }
+  .head1 {
+      color: #ff0000;
+  }
+  .title {
+      color: #ffffff;
+      
+  }
+  .body {
+      color: #0f0;
+  }
+  .tags{
+      margin: 10px;
+      background-color: #000;
+      color: #ddd;
+  }
+  .ol {
+      color: rgb(255, 145, 0);
+  }
+  table,tr, th, td {
+    border: 2px solid #000fff;
+    padding: 3px;
+    margin: 3px;
+    
+}
+table {
+    margin: auto;
+}
+th {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+.type {
+    color: #fff;
+}
+.types {
+    width: 70%;
+    margin: 3%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+ 
